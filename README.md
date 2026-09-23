@@ -1,24 +1,39 @@
 # ✦ TaskFlow — Celestial Chronicle
 
 <p align="center">
-  <strong>A cinematic, professional React productivity application for managing tasks, deadlines, priorities, reminders, and personal progress.</strong>
+  <strong>A cinematic React productivity application for managing tasks, deadlines, priorities, reminders, and personal progress.</strong>
 </p>
 
 <p align="center">
-  <a href="https://dhasarathi70.github.io/taskflow-todo/">🌐 Live Demo</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/dhasarathi70/taskflow-todo">💻 GitHub Repository</a>
+  <a href="https://dhasarathi70.github.io/taskflow-todo/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_TaskFlow-c9a96e?style=for-the-badge&labelColor=070a14" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/dhasarathi70/taskflow-todo">
+    <img src="https://img.shields.io/badge/💻_GitHub-Repository-171c32?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Modern-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-Responsive-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
 </p>
 
 ---
 
 ## 🌌 Overview
 
-**TaskFlow** is a modern task management application built with **React and Vite**.
+**TaskFlow** is a modern productivity and task management application built with **React and Vite**.
 
-The application follows a **"Celestial Chronicle"** concept, where everyday tasks become chapters in a personal journey.
+The application is designed around the concept of a **Celestial Chronicle**, where everyday tasks become chapters in a personal journey.
 
-TaskFlow provides a complete productivity workflow for creating, organizing, scheduling, tracking, editing, and backing up tasks through a premium cinematic interface.
+TaskFlow combines practical productivity features with a premium cinematic interface, allowing users to create, organize, schedule, track, edit, complete, and back up their tasks.
+
+### 🌐 Live Application
+
+**https://dhasarathi70.github.io/taskflow-todo/**
 
 ---
 
@@ -26,33 +41,32 @@ TaskFlow provides a complete productivity workflow for creating, organizing, sch
 
 ### 📖 Task Management
 
-* Create new tasks
-* Add task descriptions
+* Create tasks with titles and descriptions
 * Mark tasks as completed
 * Edit existing tasks
 * Delete tasks with confirmation
 * Undo recently deleted tasks
-* Pin important tasks
+* Pin important chapters
 * Clear completed tasks
 
-### 🎯 Task Organization
+### 🎯 Organization
 
-* Priority levels:
+* Set task priority:
 
   * Low
   * Medium
   * High
-* Categories:
+* Organize tasks by category:
 
   * Academy
   * Work
   * Personal
   * Projects
   * Other
-* Search tasks by title or description
-* Filter tasks by status
-* Filter tasks by category
-* Sort tasks by:
+* Search by title or description
+* Filter by task status
+* Filter by category
+* Sort by:
 
   * Newest
   * Oldest
@@ -63,21 +77,23 @@ TaskFlow provides a complete productivity workflow for creating, organizing, sch
 
 * Set due dates
 * Set due times
-* Automatic overdue detection
-* Due today indicator
-* Due tomorrow indicator
-* Upcoming deadline indicators
+* Detect overdue tasks
+* Display tasks due today
+* Display tasks due tomorrow
+* Display upcoming deadlines
 
-### 🔔 Reminders
+### 🔔 Browser Reminders
 
 * Browser notification support
 * Notification permission handling
-* Task reminder scheduling
-* Prevents repeated reminder notifications
+* Reminder scheduling
+* Prevent repeated reminder notifications
+
+> Browser notifications require user permission and the current implementation does not use a backend push-notification service.
 
 ### 📊 Chronicle Overview
 
-The dashboard provides a quick overview of:
+The dashboard provides productivity statistics including:
 
 * Total chapters
 * Completed chapters
@@ -85,32 +101,32 @@ The dashboard provides a quick overview of:
 * Overdue chapters
 * Overall progress
 
-### 💾 Local Data Persistence
+### 💾 Local Persistence
 
-TaskFlow stores task information using the browser's:
+TaskFlow uses browser storage to preserve task data between sessions.
 
 ```text
 localStorage
 ```
 
-Tasks remain available after refreshing or reopening the application.
+No backend database is required for the core application.
 
 ### 📦 Backup & Restore
 
 Users can:
 
-* Save their complete task collection as a JSON backup
-* Restore tasks from a previous backup
+* Export their tasks as a JSON backup
+* Restore a previous backup
 * Preserve their productivity data locally
 
-### 📱 Responsive Design
+### 📱 Responsive Interface
 
-The interface is designed for:
+Designed for:
 
 * Desktop
 * Laptop
 * Tablet
-* Mobile devices
+* Mobile
 
 ### ♿ Accessibility
 
@@ -120,75 +136,115 @@ The application includes:
 * Accessible labels
 * Keyboard-friendly controls
 * ARIA attributes
-* Clear focus states
+* Focus states
 * Responsive layouts
 
 ---
 
-## 🎨 Design System
+## 🎨 Celestial Chronicle Design
 
-TaskFlow uses the **Celestial Chronicle** visual identity.
+TaskFlow uses a premium **dark celestial** visual system rather than a conventional productivity-dashboard appearance.
 
 ### Visual Direction
 
-* Premium
-* Cinematic
-* Professional
-* Anime-inspired
-* Dark celestial atmosphere
-* Refined typography
-* Subtle motion
-* Glass-style surfaces
-* Antique gold accents
+* 🌌 Deep-space atmosphere
+* 🌙 Moonlight-inspired surfaces
+* ✦ Antique gold accents
+* 🎴 Refined anime-inspired visual language
+* 🪟 Glass-style cards
+* 🎞️ Cinematic spacing and motion
+* ✍️ Editorial-style typography
+* 📱 Responsive layouts
 
 ### Color Palette
 
-| Color     | Purpose              |
-| --------- | -------------------- |
-| `#070a14` | Deep Space           |
-| `#0a0e1c` | Primary Dark Surface |
-| `#272344` | Cosmic Purple        |
-| `#c9a96e` | Antique Gold         |
-| `#e0c98d` | Gold Highlight       |
-| `#eee8d5` | Moonlight            |
-| `#faf7ed` | Starlight            |
-| `#a95868` | Crimson Status       |
-| `#718b7b` | Sage Status          |
+| Color          | Hex       | Usage                        |
+| -------------- | --------- | ---------------------------- |
+| Deep Space     | `#070a14` | Main background              |
+| Dark Surface   | `#0a0e1c` | Primary surfaces             |
+| Cosmic Purple  | `#272344` | Secondary surfaces           |
+| Antique Gold   | `#c9a96e` | Primary accent               |
+| Gold Highlight | `#e0c98d` | Highlights                   |
+| Moonlight      | `#eee8d5` | Secondary text               |
+| Starlight      | `#faf7ed` | Primary text                 |
+| Crimson        | `#a95868` | Warning / destructive states |
+| Sage           | `#718b7b` | Positive states              |
 
 ### Typography
 
-* **Cinzel** — headings, branding and important labels
-* **Inter** — body content, forms and controls
+**Cinzel**
+
+Used for:
+
+* Branding
+* Section headings
+* Important labels
+
+**Inter**
+
+Used for:
+
+* Body text
+* Forms
+* Buttons
+* Controls
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
+| Technology        | Purpose                          |
+| ----------------- | -------------------------------- |
+| React             | Component-based UI               |
+| JavaScript        | Application logic                |
+| Vite              | Development and production build |
+| CSS3              | Responsive visual design         |
+| LocalStorage API  | Local task persistence           |
+| Notifications API | Browser reminders                |
+| File API          | Backup import                    |
+| Blob API          | Backup export                    |
+| ESLint            | Code quality                     |
+| Git               | Version control                  |
+| GitHub            | Source management                |
+| GitHub Actions    | Automated deployment             |
+| GitHub Pages      | Production hosting               |
 
-* React
-* JavaScript
-* HTML5
-* CSS3
+---
 
-### Build Tool
+## 🏗️ Application Architecture
 
-* Vite
+TaskFlow follows a component-based React structure.
 
-### Browser APIs
+```text
+User Interface
+      │
+      ▼
+    Home
+      │
+      ├── Header
+      │
+      ├── StatsDashboard
+      │
+      ├── TaskForm
+      │
+      ├── Task Controls
+      │
+      ├── TaskList
+      │      │
+      │      └── TaskCard
+      │
+      └── Modal
+             │
+             ├── Edit
+             └── Delete Confirmation
 
-* LocalStorage API
-* Web Notifications API
-* File API
-* Blob API
-
-### Development & Deployment
-
-* Git
-* GitHub
-* GitHub Actions
-* GitHub Pages
-* ESLint
+Application Utilities
+      │
+      ├── storage.js
+      ├── notifications.js
+      ├── backup.js
+      └── taskUtils.js
+```
 
 ---
 
@@ -235,6 +291,7 @@ taskflow-todo/
 │   └── main.jsx
 │
 ├── .gitignore
+├── eslint.config.js
 ├── index.html
 ├── package-lock.json
 ├── package.json
@@ -248,7 +305,7 @@ taskflow-todo/
 
 ### Prerequisites
 
-Make sure you have installed:
+Make sure the following are installed:
 
 * Node.js
 * npm
@@ -260,7 +317,7 @@ Make sure you have installed:
 git clone https://github.com/dhasarathi70/taskflow-todo.git
 ```
 
-### 2. Navigate to the project
+### 2. Enter the project directory
 
 ```bash
 cd taskflow-todo
@@ -278,13 +335,13 @@ npm install
 npm run dev
 ```
 
-The application will be available through the local Vite development server.
+Vite will provide a local development URL in the terminal.
 
 ---
 
 ## 🏗️ Production Build
 
-Create a production build:
+Create an optimized production build:
 
 ```bash
 npm run build
@@ -300,74 +357,110 @@ npm run preview
 
 ## 🌐 Deployment
 
-TaskFlow is deployed using **GitHub Pages** with **GitHub Actions**.
+TaskFlow is deployed using **GitHub Pages** through **GitHub Actions**.
 
-Every push to the `main` branch automatically triggers the deployment workflow.
+Every push to the `main` branch triggers the deployment workflow.
 
-### Deployment Flow
+### Deployment Pipeline
 
 ```text
-Developer
-    │
-    ▼
-Git Push
-    │
-    ▼
-GitHub Repository
-    │
-    ▼
-GitHub Actions
-    │
-    ├── Install Dependencies
-    │
-    ├── Build React Application
-    │
-    └── Generate Production Files
-    │
-    ▼
-GitHub Pages
-    │
-    ▼
-Live TaskFlow Application
+┌───────────────────┐
+│   Local Changes   │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│     git push      │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│ GitHub Repository  │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│  GitHub Actions   │
+│                   │
+│ npm ci            │
+│ npm run build     │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│   GitHub Pages    │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│   Live TaskFlow   │
+└───────────────────┘
 ```
 
-### Live Application
+### Deployment Workflow
 
-🌐 **[https://dhasarathi70.github.io/taskflow-todo/](https://dhasarathi70.github.io/taskflow-todo/)**
+The project uses:
 
-### Repository
+```text
+.github/workflows/deploy.yml
+```
 
-💻 **[https://github.com/dhasarathi70/taskflow-todo](https://github.com/dhasarathi70/taskflow-todo)**
+The workflow:
 
----
+1. Checks out the repository
+2. Installs Node.js
+3. Installs dependencies
+4. Builds the Vite application
+5. Uploads the `dist` directory
+6. Deploys the application to GitHub Pages
 
-## 🔔 Notification Notes
+### Live Demo
 
-TaskFlow uses the browser's **Notifications API** for reminders.
+🌐 **https://dhasarathi70.github.io/taskflow-todo/**
 
-Users must grant notification permission before reminders can be displayed.
+### Source Code
 
-The current implementation does not use a backend push notification service or server-side task scheduler.
+💻 **https://github.com/dhasarathi70/taskflow-todo**
 
 ---
 
 ## 💾 Data & Privacy
 
-TaskFlow currently stores task information locally in the user's browser using:
+TaskFlow currently operates as a client-side application.
+
+Task information is stored locally in the browser using:
 
 ```text
 localStorage
 ```
 
-The core application does not require a backend server or database.
+The core application does not require:
 
-Backup files are generated locally as JSON files and can be restored when required.
+* A backend server
+* A database
+* User authentication
+
+Backup files are generated locally as JSON files and can be restored through the application.
 
 ---
 
-## 🧠 What This Project Demonstrates
+## 🔔 Notification Behavior
 
-This project demonstrates practical frontend development concepts including:
+TaskFlow uses the browser's **Notifications API** for task reminders.
+
+Users must grant notification permission before notifications can be displayed.
+
+The current version does not include:
+
+* Server-side push notifications
+* Cloud notification scheduling
+* Background task processing through a backend
+
+---
+
+## 🧠 Development Concepts Demonstrated
+
+This project demonstrates practical frontend development concepts such as:
 
 * React component architecture
 * React state management
@@ -379,9 +472,9 @@ This project demonstrates practical frontend development concepts including:
 * Array sorting
 * Search functionality
 * LocalStorage persistence
-* Browser Notifications API
+* Browser APIs
 * JSON data handling
-* File import/export
+* File import and export
 * Responsive CSS
 * Accessibility
 * UI/UX design
@@ -395,21 +488,29 @@ This project demonstrates practical frontend development concepts including:
 
 ## 🔮 Future Improvements
 
-Possible future versions may include:
+Potential future improvements include:
 
-* User authentication
-* Cloud database synchronization
-* Multi-device synchronization
-* Calendar integration
-* Recurring tasks
-* Drag-and-drop task ordering
-* Advanced productivity analytics
-* Progressive Web App support
-* Offline-first functionality
-* Server-side notifications
-* Custom themes
-* Task collaboration
-* Cloud backup
+* [ ] User authentication
+* [ ] Cloud database synchronization
+* [ ] Multi-device synchronization
+* [ ] Calendar integration
+* [ ] Recurring tasks
+* [ ] Drag-and-drop task ordering
+* [ ] Advanced productivity analytics
+* [ ] Progressive Web App support
+* [ ] Offline-first functionality
+* [ ] Server-side notifications
+* [ ] Custom themes
+* [ ] Task collaboration
+* [ ] Cloud backup
+
+---
+
+## 📌 Project Status
+
+**Current status:** Active portfolio project
+
+The current version focuses on client-side productivity management, responsive UI/UX, browser persistence, reminders, backup/restore functionality, and automated GitHub Pages deployment.
 
 ---
 
@@ -419,26 +520,38 @@ Possible future versions may include:
 
 **B.E. CSE (Cyber Security) Student**
 
-Interested in building modern web applications, exploring software development, UI/UX, and continuously learning new technologies.
+Interested in:
 
-### Connect With Me
+* Web development
+* Software development
+* UI/UX
+* Programming
+* Building practical applications
+* Exploring modern technologies
 
-**GitHub**
+### Connect
 
-[https://github.com/dhasarathi70](https://github.com/dhasarathi70)
-
-**LinkedIn**
-
-[https://linkedin.com/in/dhasarathi-a-671652386/](https://linkedin.com/in/dhasarathi-a-671652386/)
+<p>
+  <a href="https://github.com/dhasarathi70">
+    <img src="https://img.shields.io/badge/GitHub-dhasarathi70-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/dhasarathi-a-671652386/">
+    <img src="https://img.shields.io/badge/LinkedIn-Dhasarathi%20A.-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
 ---
 
 ## 📄 License
 
-This project is created for educational and portfolio purposes.
+This project is created for **educational and portfolio purposes**.
 
 ---
 
 <p align="center">
-  ✦ Built with React · Designed with intention · Deployed with GitHub Actions ✦
+  <strong>✦ Built with React · Designed with intention · Deployed with GitHub Actions ✦</strong>
+</p>
+
+<p align="center">
+  <sub>TaskFlow — Turn your daily tasks into meaningful chapters.</sub>
 </p>
